@@ -9,7 +9,7 @@ GPIO_DISPLAY = [25, 12, 16, 19]
 # [A, B, C, D, E, F, G, DP]
 GPIO_SEGMENT = [8, 20, 6, 5, 9, 7, 13, 11]
 
-ENABLE_SCROLL = TRUE
+ENABLE_SCROLL = True
 
 for i in GPIO_BUTTON:
     GPIO.setup(i, GPIO.IN, pull_up_down=GPIO.PUD_UP)
